@@ -8,13 +8,11 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Álvaro Medina</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          Desarrollador Front End. Me encanta las tecnologias creadas por
+          Facebook para el desarollo de la web. Me he enfocado en React, Next,
+          Gatsby y GraphQl.
         </p>
       </div>
     </div>
@@ -26,7 +24,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            Interes
           </button>
         </li>
         <li>
@@ -35,7 +33,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Trabajos
           </button>
         </li>
         <li>
@@ -44,7 +42,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            Acerca de mi
           </button>
         </li>
         <li>
@@ -53,7 +51,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            Contactame
           </button>
         </li>
       </ul>
