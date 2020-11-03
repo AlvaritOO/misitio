@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import Justicia from '../images/Justicia.jpg'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
-import yoAlvaro from '../images/yoAlvaro.jpeg'
+
 
 class Main extends React.Component {
   render() {
@@ -31,28 +30,11 @@ class Main extends React.Component {
         >
           <h2 className="major">Aréa de interes</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={Justicia} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+          Asesorar no es sólo emitir una opinión jurídica, implica analizar cada situación en particular a fin de llegar a la mejor solución en cada caso; es por eso que con nosotros, serás parte de tu causa, entenderás y comprenderás tu panorama. <a href="#work">QUIERO SER PARTE</a>.
+          </p><p>"Nuestro compromiso es brindarte una asesoría integral, personalizada, humana y de calidad, gestionando tus derechos con celeridad, eficiencia y eficacia.</p>
           {close}
         </article>
 
@@ -63,17 +45,28 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Trabajos</h2>
+          <h2 className="major">Nuestros Servicios</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
+          <h3>RECHAZO DE LICENCIAS MÉDICAS</h3>
+          <p>Asesoría y eventual tramitación administrativa por rechazo de licencias médicas. Tramitación judicial por rechazo de licencias médicas.</p>
+          <h3>LIQUIDACIONES (Quiebras):</h3>
+          <p>Asesoría y Patrocinio de causas de Liquidaciones de personas y empresas deudoras, de acuerdo al procedimiento de la Ley 20.720, con la finalidad de liquidar sus bienes y extinguir su deuda.</p>
+          <h3>PENSIONES DE INVALIDEZ</h3>
+          <p>Asesoría, representación y acompañamiento en la solicitud y tramitación de pensión de invalidez, por personal autorizado ante la Superintendencia de Pensiones. Eventual tramitación judicial del rechazo.</p>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          <h3>te invito a conocer los sitios que he creado</h3>
+          <h3>FAMILIA</h3>
+          <p>Alimentos, Aumento, Rebaja y Cese de Alimentos, Cuidado Personal, Divorcios unilaterales, de común acuerdo, por culpa, Relación directa y regular (visitas) Declaración de bien familiar, Violencia intrafamiliar, Medidas de protección, Solicitud judicial de autorización para salir del país, cumplimiento de alimentos, Reclamación e impugnación de filiación.</p>
+          <h3>CIVIL</h3>
+          <p>Asistencia legal en actos expropiatorios, Procesos administrativos y judiciales de regularización de pequeña propiedad, Arriendos, Prescripción deudas de aseo (basura), Tercerías (embargos), Cambios de nombre, Redacción de contratos y escrituras públicas, Cumplimiento o resolución de contratos, Redacción de testamentos, Tramitación de posesiones efectivas intestadas, Juicios restitutorios como precarios, reivindicaciones, Cobros de pesos, Cobros de honorarios, Prescripciones de deuda, Indemnizaciones de perjuicios, Avenimientos y Transacciones extrajudiciales, Posesiones efectivas testadas, Rectificaciones de partida de nacimiento, Extravío de títulos, Cobros de factura, pagaré, cheque y otros títulos ejecutivos, Interdicción por demencia.</p>
+          <h3>LABORAL</h3>
+          <p>Despido injustificado , Tutela por vulneración de derechos, Desafueros maternales y sindicales, Cobro de prestaciones, Accidentes del Trabajo, Enfermedades Profesionales, Acoso laboral, Autodespido, Revisión documental para empleadores, Asesoría laboral para empleadores y sindicatos.</p>
+          <h3>RECURSOS DE PROTECCIÓN</h3>
+          <p>Recursos de protección por fraudes bancarios, alza del plan base,  alza del GES, por no cobertura de prestaciones de salud pactadas y demás garantías constitucionales.</p>
+
           {close}
         </article>
 
@@ -84,13 +77,12 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Acerca de mi</h2>
+          <h2 className="major">Asesorías y Convenios</h2>
           <span className="image main">
-            <img src={yoAlvaro} alt="" />
+            <img src={pic02} alt="" />
           </span>
           <p>
-            Hola soy Álvaro, es un agrado saludarles y poder presentar en este
-            sitio web mis capacides en el área del desarrollo web
+          Nuestro estudio jurídico presta el servicio de Asesorías legales a empresas. Actualmente asesoramos a
           </p>
           {close}
         </article>
