@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 const Footer = props => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
     <p className="copyright">
-      &copy; Álvaro Medina Arriagada - AM Soporte +56 9 51138081
+      &copy; Luisa Medina - Abogada Universidad de Chile - Contacto + 56 9 7986 4599
     </p>
   </footer>
 )

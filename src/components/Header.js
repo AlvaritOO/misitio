@@ -40,7 +40,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            Acerca de mi
+          Asesorías
           </button>
         </li>
         <li>
@@ -49,7 +49,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Contactame
+            Contactanos
           </button>
         </li>
       </ul>
